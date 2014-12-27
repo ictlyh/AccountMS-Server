@@ -30,8 +30,8 @@ require "./useraction.php";
 		<div class="row">
 			<div class="span6 offset2"><br>
 				<h1>提供收入支出管理一键服务</h1><br><br>
-				<h3><font color="green">简单</font>  : 简单易用，方便快捷</h2><br>
-				<h3><font color="green">可靠</font>  : 同步到服务器，再也不怕数据丢失</h2><br><br>
+				<h3><font color="green">简单</font>  : 简单易用，方便快捷</h3><br>
+				<h3><font color="green">可靠</font>  : 同步到服务器，再也不怕数据丢失</h3><br><br>
 				<button class="btn btn-info btn-large"><a href="#register" data-toggle="modal"><font color="white">马上注册 &raquo;</font></a></button>
 			</div>
 			
