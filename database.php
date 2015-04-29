@@ -1,8 +1,8 @@
-﻿<?php
+<?php
 	//定义一个数据库全局变量
 	global $db;
 	//绑定数据库
-	$db = new mysqli("localhost","root","root","account");
+	$db = new mysqli("qdm136821452.my3w.com","qdm136821452","ictlyh1010","qdm136821452_db");
 	if (mysqli_connect_errno())
 	{
 		printf("Database Connect Failed. Error: %s\n",mysqli_connect_error());

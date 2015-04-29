@@ -47,8 +47,8 @@ require "./useraction.php";
 		<br>
 		
 		<div class="row">
-			<div class="span3 offset1"><img src="img/sea1.png" alt=""></div>
-			<div class="span3"><img src="img/leisure.png" alt=""></div>
+			<div class="span3 offset1"><img src="img/sea1.jpg" alt=""></div>
+			<div class="span3"><img src="img/leisure.jpg" alt=""></div>
 			<div class="span3"><img src="img/kaixuan.jpg" alt=""></div>
 			<div class="span3"><img src="img/sea2.jpg" alt=""></div>
 		</div>

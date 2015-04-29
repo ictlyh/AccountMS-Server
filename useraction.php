@@ -41,7 +41,7 @@
 			}else
 				$error="用户名不符合规范或密码不一致";
 		}else if ($_POST['action']=='addinaccount'){//新增收入
-				$record = $db->query("SELECT max(_id) FROM tb_inaccount WHERE userID='$username'");
+				$record = $db->query("SELECT COUNT(*) FROM tb_inaccount WHERE userID='$username'");
 				$res=$record->fetch_row();
 				$count = intval($res['0'])+1;
 				$dbquery=$db->query("INSERT INTO tb_inaccount VALUES('$username','$count','".addslashes($_POST['money'])."','".addslashes($_POST['time'])."','".addslashes($_POST['type'])."','".addslashes($_POST['handler'])."','".addslashes($_POST['mark'])."')");

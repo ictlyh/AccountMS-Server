@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require "./database.php";
 
 if($_POST)
