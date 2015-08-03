@@ -13,4 +13,4 @@ Server
 所有资料在服务器上明文保存，包括账户和密码，以后可能加密保存
 MySQL语句没有进行安全性检查，请不要特意进行SQL注入破坏
 
-Online Demo:http://115.28.137.207/accountms/
+Online Demo:http://www.mutouxiaogui.cn/accountms/
